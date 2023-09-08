@@ -6,6 +6,10 @@ const filterjogos = catalogo.filter((item) => item.categoria === 'Jogos');
 const filterfilmes = catalogo.filter((item) => item.categoria === 'Filmes');
 const filtercuriosidades = catalogo.filter((item) => item.categoria === 'Curiosidades');
 
+function mostrarAlertaAoCarregar() {
+  alert("ATIVE AS PERMISSÕES DO SEU NAVEGADOR!");
+}
+
 function criarVideoHTML(item) {
   const img = item.img;
   const titulo = item.titulo;
@@ -70,3 +74,4 @@ function verVideo(titulo, link) {
 function exibirMaisFilmes() {
   alert("Botão Ver Mais Filmes clicado!");
 }
+
