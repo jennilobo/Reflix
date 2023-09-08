@@ -55,3 +55,7 @@ header p {
     font-size: 1.7em;
   }
 }
+
+a :hover {
+  color: red;
+}
