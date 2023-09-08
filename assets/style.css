@@ -35,9 +35,10 @@ header p {
 
 @media screen and (max-width: 768px) {
   .header-video-section {
-    background-image: url('./images/hjh.jpeg');
+    background-image: url('./images/celular.jpeg');
     background-size: cover;
     height: 100vh;
+    width: 100vh;
   }
 
   video {
