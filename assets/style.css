@@ -40,6 +40,7 @@ header p {
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    margin: 0;
   }
 
   video {
