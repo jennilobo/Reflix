@@ -46,4 +46,12 @@ header p {
   video {
     display: none;
   }
+
+  .frase {
+    font-size: 1.6em;
+  }
+
+  .assista {
+    font-size: 1.7em;
+  }
 }
