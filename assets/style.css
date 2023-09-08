@@ -33,3 +33,14 @@ header p {
   font-size: 1.2em;
 }
 
+@media screen and (max-width: 768px) {
+  .header-video-section {
+    background-image: url('./images/background-celular.webp');
+    background-size: cover;
+    height: 100vh;
+  }
+
+  video {
+    display: none;
+  }
+}
